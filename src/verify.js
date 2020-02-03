@@ -15,7 +15,7 @@ RegVerifyLife.prototype._init = function(){
             }
         }else{
             RegVerifyLife.prototype['is'+k]=function(s,fn){
-                let res = s.test(s)
+                let res = this.rules[k].test(s)
                 fn && fn(res)
                 return  res
             }

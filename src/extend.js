@@ -11,7 +11,7 @@
  * @rule { RegExp | Function } 验证规则
  * @return { Boolean } false 或 true
  */
-import RegVerifyLife from './Reg-core.js'
+import RegVerifyLife from './verify.js'
 
 RegVerifyLife.prototype.extend = function(name,rule){
 
